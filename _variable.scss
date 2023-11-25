@@ -1,0 +1,112 @@
+// color
+$primary-red: #E49794;
+$primary-green: #50B184;
+$primary-blue: #51A8BC;
+$secondary-brown: #CEBDAD;
+$secondary-yellow: #F9D849;
+$secondary-beige: #F0EBDF;
+$secondary-orange: #D6875A;
+$gray-100: #000;
+$gray-80: #333;
+$gray-60: #666;
+$gray-40: #999;
+$gray-20: #ccc;
+$gray-0: #fff;
+
+// 字型
+$heading: (
+    heading1: (
+    font-size: 2.5rem,
+    line-height: 1.25
+    ),
+    heading2: (
+    font-size: 2rem,
+    line-height: 1.25
+    ),
+    heading3: (
+    font-size: 1.75rem,
+    line-height: 1.25
+    ),
+    heading4: (
+    font-size: 1.5rem,
+    line-height: 1.4
+    ),
+    heading5: (
+    font-size: 1.25rem,
+    line-height: 1.4
+    ),
+    heading6: (
+    font-size: 1.125rem,
+    line-height: 1.4
+    )
+);
+
+$body: (
+    title1:(
+    font-size: 1rem,
+    line-height: 1.4
+    ),
+    title2:(
+    font-size: 1rem,
+    line-height: 1.6
+    ),
+    subtitle1:(
+    font-size: .85rem,
+    line-height: 1.4
+    ),
+    subtitle2:(
+    font-size: .875rem,
+    line-height: 1.6
+    ),
+    body1-1:(
+    font-size: 1rem,
+    line-height: 1.4
+    ),
+    body1-2:(
+    font-size: 1rem,
+    line-height: 1.6
+    ),
+    body2-1:(
+    font-size: .875rem,
+    line-height: 1.4
+    ),
+    body2-2:(
+    font-size: .875rem,
+    line-height: 1.6
+    ),
+    caption1:(
+    font-size: .75rem,
+    line-height: 1.4
+    ),
+    caption2:(
+    font-size: .75rem,
+    line-height: 1.6
+    ),
+    small1:(
+    font-size: .6875rem,
+    line-height: 1.4
+    ),
+    small2:(
+    font-size: .6875rem,
+    line-height: 1.6
+    ),
+    tiny1:(
+    font-size: .625rem,
+    line-height: 1.4
+    ),
+    tiny2:(
+    font-size: .625rem,
+    line-height: 1.6
+    ),
+);
+
+// line-height
+$lh-sm: 1.25;
+$lh-md: 1.4;
+$lh-lg: 1.6;
+
+
+
+
+
+
