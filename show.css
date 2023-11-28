@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  position: relative; 
+}
+
+div.showPageHeaderContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  /* 隱藏超出容器的部分 */ 
+}
+
+div.showPageHeaderContainer img {
+  width: 100%;
+  /* 讓圖片保持在其容器範圍內 */
+  height: auto;
+  /* 保持圖片比例 */
+  display: block;
+  /* 確保 img 元素以 block 元素顯示 */
+  transition: opacity 0.2s ease;
+  /* 增加漸變效果 */ 
+}
+
+div.showPageHeaderContainer img.hover {
+  opacity: 0; 
+}
+
+div.showPageHeaderContainer:hover img.normal {
+  opacity: 0;
+  display: none; 
+}
+
+div.showPageHeaderContainer:hover img.hover {
+  opacity: 1; 
+}
+
+div.showPageContainer {
+  min-width: 900px;
+  overflow: auto;
+  /* 添加滾動條 */
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+
+div.showPageContainer img {
+  width: 100%;
+  height: 100%; 
+}
