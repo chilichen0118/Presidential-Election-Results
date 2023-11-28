@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "node-sass": "8.0"
+  },
+  "scripts": {
+    "build-css-index": "node-sass index.scss index.css",
+    "build-css-show": "node-sass show.scss show.css"
   }
 }
